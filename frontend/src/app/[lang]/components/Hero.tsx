@@ -34,6 +34,7 @@ interface HeroProps {
 }
 
 export default function Hero({ data }: HeroProps) {
+  // console.log('hero data', data)
   const imgUrl = getStrapiMedia(data.picture.data.attributes.url);
 
   return (

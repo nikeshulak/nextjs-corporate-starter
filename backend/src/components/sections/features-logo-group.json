@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_features_logo_groups",
+  "info": {
+    "displayName": "Features logo group"
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "Logos": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
